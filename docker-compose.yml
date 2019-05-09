@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+
+  zip:
+    build: .
+    command:
+      - zip ship.zip ship
+      - mv ship.zip ship/ship-$$(cat-version ship/Dockerfile).zip
+    volumes:
+      - ./:/app/ship

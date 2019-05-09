@@ -1,7 +1,7 @@
 FROM debian:stretch
 
-LABEL version='0.0.2'
-LABEL maintainer='Francesco Bianco <info@javanile.org>'
+LABEL version = '0.0.2'
+LABEL maintainer = 'Francesco Bianco <info@javanile.org>'
 
 COPY entrypoint.sh cat-version /usr/local/bin/
 

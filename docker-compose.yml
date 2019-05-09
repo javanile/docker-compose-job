@@ -5,7 +5,7 @@ services:
   zip:
     build: .
     command:
-      - zip ship.zip ship
+      - zip -r ship.zip ship -x ship/.git/* ship/.idea/*
       - mv ship.zip ship/ship-$$(cat-version ship/Dockerfile).zip
     volumes:
       - ./:/app/ship

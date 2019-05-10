@@ -9,3 +9,11 @@ services:
       - mv ship.zip ship/ship-$$(cat-version ship/Dockerfile).zip
     volumes:
       - ./:/app/ship
+
+  fail:
+    build: .
+    command:
+      - expr 1 / 0
+      - echo "asdasd"
+    volumes:
+      - ./:/app/ship

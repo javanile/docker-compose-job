@@ -7,13 +7,13 @@ echo "set -e" >> ${SHIP_FILE}
 
 ship_step=1
 for command in "$@"; do
-    echo "echo \"===[ Step ${ship_step}/$# ]===\"" >> ${SHIP_FILE}
-    echo "echo \"> ${command}\"" >> ${SHIP_FILE}
+    echo "echo '===[ Step ${ship_step}/$# ]==='" >> ${SHIP_FILE}
+    echo "echo '> ${command}'" >> ${SHIP_FILE}
     echo "${command}" >> ${SHIP_FILE}
-    echo "echo \"> done.\"" >> ${SHIP_FILE}
+    echo "echo '> done.'" >> ${SHIP_FILE}
     ship_step=$(expr ${ship_step} + 1)
 done
 
 chmod +x ${SHIP_FILE}
 
-${SHIP_FILE}
+${SHIP_FILE} || echo "fail."

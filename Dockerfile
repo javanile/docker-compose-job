@@ -1,7 +1,7 @@
 FROM debian:stretch
 
-LABEL version = '0.0.3'
-LABEL maintainer = 'Francesco Bianco <info@javanile.org>'
+LABEL version='0.0.3'
+LABEL maintainer='Francesco Bianco <info@javanile.org>'
 
 COPY bin/* /usr/local/bin/
 

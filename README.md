@@ -45,7 +45,7 @@ docker-compose run backup-files
 
 ### Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [CONTRIBUTING.md](CONTRIBUTING.md).
+Thank you for considering contributing to this project! The contribution guide can be found in the [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ### Code of Conduct
 

@@ -33,7 +33,7 @@ services:
       - zip -u backup.zip ./files
 ```
 
-Now your this simple commands to run your jobs
+Now use this simple commands to run your jobs
 
 ```shell
 docker-compose run create-database

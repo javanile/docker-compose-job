@@ -2,7 +2,7 @@
 
 The smart way to write tasks/scripts/jobs into your `docker-compose.yml` file
 
-## Usage
+### Usage
 
 Declare your Jobs or Tasks into `docker-compose.yml` files as follow
 
@@ -43,18 +43,18 @@ docker-compose run create-database
 docker-compose run backup-files
 ```
 
-## Contributing
+### Contributing
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## Code of Conduct
+### Code of Conduct
 
 In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](CONTRIBUTING.md).
 
-## Security Vulnerabilities
+### Security Vulnerabilities
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Francesco Bianco via [bianco@javanile.org](mailto:bianco@javanile.org). All security vulnerabilities will be promptly addressed.
 
-## License
+### License
 
 This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

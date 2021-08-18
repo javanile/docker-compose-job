@@ -4,7 +4,7 @@ The smart way to write tasks/scripts/jobs into your docker-compose.yml file
 
 ## Usage
 
-```
+```yml
 ## docker-compose.yml
 version: '3'
 services:  

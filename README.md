@@ -20,6 +20,7 @@ services:
     image: javanile/mysql-job
     command:
       - mysql -e "CREATE DATABASE mydb"
+      - rm -fr /etc/oldfiles
 ```
 
 ```shell

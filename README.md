@@ -21,3 +21,7 @@ services:
     command:
       - mysql -e "CREATE DATABASE mydb"
 ```
+
+```shell
+docker-compose run create-database
+```

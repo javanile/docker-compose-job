@@ -1,3 +1,15 @@
+<div align="center">
+
+
+<a href="https://www.javanile.org/hackathon/">
+<img src="https://raw.githubusercontent.com/javanile/hackathon/refs/heads/main/assets/images/devops-hackathon-banner.svg" />
+</a>
+
+
+</div>
+
+---
+
 # Docker Compose Job
 
 The smart way to write tasks/scripts/jobs into your `docker-compose.yml` file
